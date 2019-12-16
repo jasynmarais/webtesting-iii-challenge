@@ -13,7 +13,7 @@ beforeEach(() => {
 });
 
 describe('Dashboard compponent', () => {
-    test('it renders Display and Dashboard', () => {
+    test('it matches snapshot', () => {
         expect(wrapper.container).toMatchSnapshot();
     });
 });
